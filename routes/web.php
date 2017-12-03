@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/', 'PagesController@docs');
-Route::get('docs', 'PagesController@docs');
+Route::get('/', 'PagesController@home')->name('pages.home');
+Route::get('docs', 'PagesController@docs')->name('pages.docs');
 
 Route::get('posts/{post}/{slug?}', 'PostsController@show')->name('posts.show');
 Route::get('category/{category}/{slug?}', 'CategoriesController@index')->name('categories.index');
 
-Route::group(['prefix' => 'admin'], function () {
+Route::group(['prefix' => 'adminLHX'], function () {
     Voyager::routes();
 });

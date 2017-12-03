@@ -20,9 +20,9 @@
             <nav id="primary-menu">
 
                 <ul>
-                    <li><a href="/"><div>首页</div></a>
+                    <li @if (Route::is('pages.home')) class="current" @endif><a href="/"><div>首页</div></a>
                     </li>
-                    <li class="current"><a href="{{ url('docs') }}"><div>移民指南</div></a>
+                    <li @if (Route::is('categories.index') || Route::is('posts.show') || Route::is('pages.docs')) class="current" @endif><a href="{{ url('docs') }}"><div>移民指南</div></a>
                     </li>
                     <li class="mega-menu"><a href="#"><div>头条</div></a>
                     </li>

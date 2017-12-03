@@ -16,18 +16,18 @@
 
                         <img src="{{ asset('images/footer-widget-logo.png') }}" alt="" class="footer-logo">
 
-                        <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
+                        {{--<p> 关注技术移民 <strong>政策动向</strong>, 探讨华裔移民 <strong>热点问题</strong>. </p>--}}
 
-                        <div style="background: url('{{ asset('images/world-map.png') }}') no-repeat center center; background-size: 100%;">
-                            <address>
-                                <strong>Headquarters:</strong><br>
-                                795 Folsom Ave, Suite 600<br>
-                                San Francisco, CA 94107<br>
-                            </address>
-                            <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-                            <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-                            <abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
-                        </div>
+                        {{--<div style="background: url('{{ asset('images/world-map.png') }}') no-repeat center center; background-size: 100%;">--}}
+                            {{--<address>--}}
+                                {{--<strong>Headquarters:</strong><br>--}}
+                                {{--795 Folsom Ave, Suite 600<br>--}}
+                                {{--San Francisco, CA 94107<br>--}}
+                            {{--</address>--}}
+                            {{--<abbr title="Phone Number"><strong>电话:</strong></abbr> (91) 8547 632521<br>--}}
+                            {{--<abbr title="Fax"><strong>传真:</strong></abbr> (91) 11 4752 1433<br>--}}
+                            {{--<abbr title="Email Address"><strong>邮箱:</strong></abbr> visa@yijuzhe.com--}}
+                        {{--</div>--}}
 
                     </div>
 
@@ -37,17 +37,29 @@
 
                     <div class="widget widget_links clearfix">
 
-                        <h4>Blogroll</h4>
+                        {{--<h4>Blogroll</h4>--}}
 
-                        <ul>
-                            <li><a href="http://codex.wordpress.org/">Documentation</a></li>
-                            <li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-                            <li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
-                            <li><a href="http://wordpress.org/support/">Support Forums</a></li>
-                            <li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
-                            <li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
-                            <li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
-                        </ul>
+                        {{--<ul>--}}
+                            {{--<li><a href="http://codex.wordpress.org/">Documentation</a></li>--}}
+                            {{--<li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>--}}
+                            {{--<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>--}}
+                            {{--<li><a href="http://wordpress.org/support/">Support Forums</a></li>--}}
+                            {{--<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>--}}
+                            {{--<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>--}}
+                            {{--<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>--}}
+                        {{--</ul>--}}
+                        <p> 关注技术移民 <strong>政策动向</strong>, 探讨华裔移民 <strong>热点问题</strong>. </p>
+
+                        <div style="background: url('{{ asset('images/world-map.png') }}') no-repeat center center; background-size: 100%;">
+                            <address>
+                                <strong>Headquarters:</strong><br>
+                                795 Folsom Ave, Suite 600<br>
+                                San Francisco, CA 94107<br>
+                            </address>
+                            <abbr title="Phone Number"><strong>电话:</strong></abbr> (91) 8547 632521<br>
+                            <abbr title="Fax"><strong>传真:</strong></abbr> (91) 11 4752 1433<br>
+                            <abbr title="Email Address"><strong>邮箱:</strong></abbr> visa@yijuzhe.com
+                        </div>
 
                     </div>
 
@@ -56,42 +68,45 @@
                 <div class="col_one_third col_last">
 
                     <div class="widget clearfix">
-                        <h4>Recent Posts</h4>
+                        <p>扫二维码关注最新移民资讯：</p>
 
-                        <div id="post-list-footer">
-                            <div class="spost clearfix">
-                                <div class="entry-c">
-                                    <div class="entry-title">
-                                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
-                                    </div>
-                                    <ul class="entry-meta">
-                                        <li>10th July 2014</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <img style="text-align: center" width="50%" src="{{ url('images/qqqun.jpg') }}" alt="">
+                        {{--<h4>最新热点</h4>--}}
 
-                            <div class="spost clearfix">
-                                <div class="entry-c">
-                                    <div class="entry-title">
-                                        <h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-                                    </div>
-                                    <ul class="entry-meta">
-                                        <li>10th July 2014</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        {{--<div id="post-list-footer">--}}
+                            {{--<div class="spost clearfix">--}}
+                                {{--<div class="entry-c">--}}
+                                    {{--<div class="entry-title">--}}
+                                        {{--<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>--}}
+                                    {{--</div>--}}
+                                    {{--<ul class="entry-meta">--}}
+                                        {{--<li>10th July 2014</li>--}}
+                                    {{--</ul>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
 
-                            <div class="spost clearfix">
-                                <div class="entry-c">
-                                    <div class="entry-title">
-                                        <h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-                                    </div>
-                                    <ul class="entry-meta">
-                                        <li>10th July 2014</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                            {{--<div class="spost clearfix">--}}
+                                {{--<div class="entry-c">--}}
+                                    {{--<div class="entry-title">--}}
+                                        {{--<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>--}}
+                                    {{--</div>--}}
+                                    {{--<ul class="entry-meta">--}}
+                                        {{--<li>10th July 2014</li>--}}
+                                    {{--</ul>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+
+                            {{--<div class="spost clearfix">--}}
+                                {{--<div class="entry-c">--}}
+                                    {{--<div class="entry-title">--}}
+                                        {{--<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>--}}
+                                    {{--</div>--}}
+                                    {{--<ul class="entry-meta">--}}
+                                        {{--<li>10th July 2014</li>--}}
+                                    {{--</ul>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                     </div>
 
                 </div>
@@ -100,23 +115,23 @@
 
             <div class="col_one_third col_last">
 
-                <div class="widget clearfix" style="margin-bottom: -20px;">
+                {{--<div class="widget clearfix" style="margin-bottom: -20px;">--}}
 
-                    <div class="row">
+                    {{--<div class="row">--}}
 
-                        <div class="col-md-6 bottommargin-sm">
-                            <div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-                            <h5 class="nobottommargin">Total Downloads</h5>
-                        </div>
+                        {{--<div class="col-md-6 bottommargin-sm">--}}
+                            {{--<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>--}}
+                            {{--<h5 class="nobottommargin">Total Downloads</h5>--}}
+                        {{--</div>--}}
 
-                        <div class="col-md-6 bottommargin-sm">
-                            <div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-                            <h5 class="nobottommargin">Clients</h5>
-                        </div>
+                        {{--<div class="col-md-6 bottommargin-sm">--}}
+                            {{--<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>--}}
+                            {{--<h5 class="nobottommargin">Clients</h5>--}}
+                        {{--</div>--}}
 
-                    </div>
+                    {{--</div>--}}
 
-                </div>
+                {{--</div>--}}
 
                 <div class="widget subscribe-widget clearfix">
                     <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
@@ -168,7 +183,7 @@
         <div class="container clearfix">
 
             <div class="col_half">
-                Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+                移居者 Copyrights &copy; 2017 All Rights Reserved.<br>
                 <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
             </div>
 
