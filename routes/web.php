@@ -14,6 +14,8 @@
 Route::get('/', 'PagesController@docs');
 Route::get('docs', 'PagesController@docs');
 
+Route::get('posts/{post}/{slug?}', 'PostsController@show')->name('posts.show');
+Route::get('category/{category}/{slug?}', 'CategoriesController@index')->name('categories.index');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', '移民指南')
 
 @section('vertical-nav')
     <div id="vertical-nav">
@@ -6,60 +7,9 @@
 
             <nav>
                 <ul>
-                    <li><a href="{{  }}"></a></li>
-                    <li><a href="#"><i class="icon-lightbulb"></i>Features</a>
-                        <ul>
-                            <li><a href="#">Feature 1</a></li>
-                            <li><a href="#">Feature 2</a></li>
-                            <li><a href="#">Feature 3</a><li>
-                            <li><a href="#">Feature 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="icon-briefcase"></i>Portfolio</a>
-                        <ul>
-                            <li><a href="#">Portfolio 1</a></li>
-                            <li><a href="#">Portfolio 2</a></li>
-                            <li><a href="#">Portfolio 3</a>
-                                <ul>
-                                    <li><a href="#">Portfolio 1.1</a></li>
-                                    <li><a href="#">Portfolio 1.2</a></li>
-                                    <li><a href="#">Portfolio 1.3</a>
-                                        <ul>
-                                            <li><a href="#">Portfolio 1.1</a></li>
-                                            <li><a href="#">Portfolio 1.2</a></li>
-                                            <li><a href="#">Portfolio 1.3</a></li>
-                                            <li><a href="#">Portfolio 1.4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Portfolio 1.4</a>
-                                        <ul>
-                                            <li><a href="#">Portfolio 1.1</a></li>
-                                            <li><a href="#">Portfolio 1.2</a></li>
-                                            <li><a href="#">Portfolio 1.3</a></li>
-                                            <li><a href="#">Portfolio 1.4</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Portfolio 4</a>
-                                <ul>
-                                    <li><a href="#">Portfolio 1.1</a></li>
-                                    <li><a href="#">Portfolio 1.2</a></li>
-                                    <li><a href="#">Portfolio 1.3</a></li>
-                                    <li><a href="#">Portfolio 1.4</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="icon-code"></i>Shortcodes</a>
-                        <ul>
-                            <li><a href="#">Shortcodes 1</a></li>
-                            <li><a href="#">Shortcodes 2</a></li>
-                            <li><a href="#">Shortcodes 3</a></li>
-                            <li><a href="#">Shortcodes 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="icon-lightbulb"></i>Contact</a></li>
+                    @foreach($categories as $category)
+                        <li><a href="{{ url($category->slug) }}"><i class="icon-lightbulb"></i>{{ $category->name }}</a></li>
+                    @endforeach
                 </ul>
             </nav>
 
@@ -93,7 +43,7 @@
 
             <div class="container clearfix">
 
-
+@yield('post-content')
 
             </div>
 

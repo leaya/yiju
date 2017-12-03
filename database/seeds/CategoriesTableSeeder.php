@@ -31,25 +31,25 @@ class CategoriesTableSeeder extends Seeder
 //        }
         if (Category::count() == 0) {
             //父目录的数量
-            $catParent_num = 15;
+            $catParent_num = 5;
             //子目录的数量
-//            $catChild_num = 50;
+            $catChild_num = 20;
             $faker = app(Faker\Generator::class);
             $category = factory(Category::class)
                 ->times($catParent_num)
                 ->make();
             Category::insert($category->toArray());
 
-//            $category_ids = Category::all()->pluck('id')->toArray();
-//
-//            $cat_childs = factory(Category::class)
-//                ->times($catChild_num)
-//                ->make()
-//                ->each(function ($cat_child) use ($category_ids, $faker) {
-//                    $cat_child->parent_id = $faker->randomElement($category_ids);
-//                });
-//
-//            Category::insert($cat_childs->toArray());
+            $category_ids = Category::all()->pluck('id')->toArray();
+
+            $cat_childs = factory(Category::class)
+                ->times($catChild_num)
+                ->make()
+                ->each(function ($cat_child) use ($category_ids, $faker) {
+                    $cat_child->parent_id = $faker->randomElement($category_ids);
+                });
+
+            Category::insert($cat_childs->toArray());
         }
     }
 }
