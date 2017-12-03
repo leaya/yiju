@@ -138,11 +138,11 @@
                     <div class="post-navigation clearfix">
 
                         <div class="col_half nobottommargin">
-                            <a href="#">&lArr; This is a Standard post with a Slider Gallery</a>
+                            <a href="{{ route('posts.show', [$nextPostId->id, $nextPostId->slug]) }}">&lArr; {{ $nextPostId->title }}</a>
                         </div>
 
                         <div class="col_half col_last tright nobottommargin">
-                            <a href="#">This is an Embedded Audio Post &rArr;</a>
+                            <a href="{{ route('posts.show', [$prevPostId->id, $prevPostId->slug]) }}">{{ $prevPostId->title }} &rArr;</a>
                         </div>
 
                     </div><!-- .post-navigation end -->

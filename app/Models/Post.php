@@ -11,4 +11,14 @@ class Post extends TcgPost
     {
         return $this->hasOne(Category::class, 'id', 'category_id');
     }
+
+    public function getPrevPostId($id)
+    {
+        return Post::where('id', '<', $id)->max('id');
+    }
+
+    public function getNextPostId($id)
+    {
+        return Post::where('id', '>', $id)->min('id');
+    }
 }
