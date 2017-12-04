@@ -198,7 +198,7 @@
                                 <li><a href="#"><i class="icon-camera-retro"></i></a></li>
                             </ul>
                             <div class="entry-content">
-                                <p>{!! $post->body !!}</p>
+                                <p>{!! $post->excerpt !!}</p>
                                 <a href="{{ route('posts.show', [$post->id, $post->slug]) }}"class="more-link">阅读全文</a>
                             </div>
                         </div>

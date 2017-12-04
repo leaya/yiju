@@ -19,4 +19,15 @@ class PostsController extends Controller
 //        dd($post);
         return view('posts.show', compact('post', 'categories', 'nextPostId', 'prevPostId'));
     }
+
+    public function search(Request $request)
+    {
+        $q = $request->get('q');
+        $paginator = [];
+        if ($q) {
+            $paginator = Post::search($q)->paginate();
+        }
+//        dd($paginator);
+        return view('posts.search', compact('paginator', 'q'));
+    }
 }

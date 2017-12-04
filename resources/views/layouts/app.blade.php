@@ -63,6 +63,8 @@
 
 @yield('slider-js')
 
+@yield('extra-js')
+
 <script type="text/javascript">
     jQuery(document).ready(function($){
         $( '#vertical-nav nav ul li:has(ul)' ).addClass('sub-menu');

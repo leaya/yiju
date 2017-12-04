@@ -15,7 +15,7 @@ class PostsTableSeeder extends Seeder
         if (Post::count() == 0) {
             $faker = app(Faker\Generator::class);
             $author_ids = User::all()->pluck('id')->toArray();
-            $category_ids = Category::all()->pluck('id')->toArray();
+            $category_ids = Category::where('parent_id', '>', 0)->pluck('id')->toArray();
             $posts = factory(Post::class)
                 ->times(120)
                 ->make()
