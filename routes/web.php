@@ -18,6 +18,8 @@ Route::get('posts/search', 'PostsController@search')->name('posts.search');
 Route::get('posts/{post}/{slug?}', 'PostsController@show')->name('posts.show');
 Route::get('category/{category}/{slug?}', 'CategoriesController@index')->name('categories.index');
 
+Route::get('pages/score', 'PagesController@score')->name('pages.score');
+
 Route::group(['prefix' => 'adminLHX'], function () {
     Voyager::routes();
 });

@@ -17,4 +17,9 @@ class PagesController extends Controller
     {
         return view('pages.home');
     }
+
+    public function score()
+    {
+        return view('pages.score');
+    }
 }

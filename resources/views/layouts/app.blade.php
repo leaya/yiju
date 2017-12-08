@@ -8,15 +8,16 @@
     <!-- Stylesheets
     ============================================= -->
     {{--<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />--}}
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ asset('style.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ asset('css/dark.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ asset('css/font-icons.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ asset('css/animate.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ asset('css/calendar.css') }}" type="text/css" />
+{{--    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" type="text/css" />--}}
+    {{--<link rel="stylesheet" href="{{ asset('style.css') }}" type="text/css" />--}}
+{{--    <link rel="stylesheet" href="{{ asset('css/dark.css') }}" type="text/css" />--}}
+{{--    <link rel="stylesheet" href="{{ asset('css/font-icons.css') }}" type="text/css" />--}}
+    {{--<link rel="stylesheet" href="{{ asset('css/animate.css') }}" type="text/css" />--}}
+{{--    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" type="text/css" />--}}
+    {{--<link rel="stylesheet" href="{{ asset('css/calendar.css') }}" type="text/css" />--}}
 
-    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" />
+    {{--<link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" />--}}
+    <link rel="stylesheet" href="{{ asset('css/all.css') }}" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 @yield('slider-css')
@@ -54,12 +55,14 @@
 
 <!-- External JavaScripts
 ============================================= -->
-<script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/plugins.js') }}"></script>
+{{--<script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>--}}
+{{--<script type="text/javascript" src="{{ asset('js/plugins.js') }}"></script>--}}
 
 <!-- Footer Scripts
 ============================================= -->
-<script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>
+{{--<script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>--}}
+<script type="text/javascript" src="{{ asset('js/all.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 
 @yield('slider-js')
 

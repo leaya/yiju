@@ -184,9 +184,11 @@
                 <div id="posts">
                     @foreach($posts as $post)
                         <div class="entry clearfix">
+                            @if (isset($post->image))
                             <div class="entry-image">
                                 <a href="{{ url('storage/' . $post->image) }}" data-lightbox="image"><img class="image_fade" src="{{ url('storage/' . $post->image) }}" alt="Standard Post with Image"></a>
                             </div>
+                            @endif
                             <div class="entry-title">
                                 <h2><a href="{{ route('posts.show', [$post->id, $post->slug]) }}">{{ $post->title }}</a></h2>
                             </div>

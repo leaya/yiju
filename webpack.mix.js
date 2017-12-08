@@ -13,3 +13,21 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.scripts([
+    'public/js/jquery.js',
+    'public/js/plugins.js',
+    'public/js/functions.js',
+], 'public/js/all.js');
+
+mix.styles([
+    'public/css/bootstrap.css',
+    'public/style.css',
+    'public/css/dark.css',
+    'public/css/font-icons.css',
+    'public/css/animate.css',
+    'public/css/magnific-popup.css',
+    'public/css/calendar.css',
+    'public/css/responsive.css',
+], 'public/css/all.css');
+

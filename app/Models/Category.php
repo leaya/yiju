@@ -9,7 +9,7 @@ class Category extends TcgCategory
 {
     public function subCat()
     {
-        return $this->hasMany(self::class, 'parent_id');
+        return $this->hasMany(self::class, 'parent_id')->orderBy('order');
     }
 
     public function parentCat()

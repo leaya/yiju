@@ -22,7 +22,7 @@ $factory->define(TCG\Voyager\Models\User::class, function (Faker $faker) {
         'email' => $faker->unique()->safeEmail,
         'password' => $password ?: $password = bcrypt('secret'),
         'remember_token' => str_random(10),
-        'avatar' => $faker->imageUrl(160,160),
+        'avatar' => url('images/avatar/avatar' . rand(1,6) . '.png'),
         'created_at' => $now,
         'updated_at' => $now,
     ];

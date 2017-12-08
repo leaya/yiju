@@ -201,11 +201,13 @@
                             <li><a href="#"><i class="icon-camera-retro"></i></a></li>
                         </ul><!-- .entry-meta end -->
 
+                        @if (isset($post->image))
                         <!-- Entry Image
                         ============================================= -->
                         <div class="entry-image bottommargin">
                             <a href="#"><img src="{{ url('storage/' . $post->image) }}" alt="Blog Single"></a>
                         </div><!-- .entry-image end -->
+                        @endif
 
                         <!-- Entry Content
                         ============================================= -->
