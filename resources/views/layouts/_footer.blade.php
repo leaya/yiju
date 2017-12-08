@@ -52,10 +52,11 @@
 
                         <div style="background: url('{{ asset('images/world-map.png') }}') no-repeat center center; background-size: 100%;">
                             <address>
-                                <strong>Headquarters:</strong><br>
-                                795 Folsom Ave, Suite 600<br>
-                                San Francisco, CA 94107<br>
+                                <strong>建议反馈？请私信:</strong><br>
+                                <br>
+                                {{--移民投资，相伴一路<br>--}}
                             </address>
+
                             <abbr title="Phone Number"><strong>电话:</strong></abbr> (91) 8547 632521<br>
                             <abbr title="Fax"><strong>传真:</strong></abbr> (91) 11 4752 1433<br>
                             <abbr title="Email Address"><strong>邮箱:</strong></abbr> visa@yijuzhe.com
@@ -69,8 +70,8 @@
 
                     <div class="widget clearfix">
                         <p>扫二维码关注最新移民资讯：</p>
-
-                        <img style="text-align: center" width="50%" src="{{ url('images/qqqun.jpg') }}" alt="">
+                        <p>为 移民 而生,移居者 的愿景是做最好的 移民平台 , 有任何跟移民相关的问题，都可以在这里得到解决。Enjoy Life !</p>
+                        {{--<img style="text-align: center" width="50%" src="{{ url('images/test.jpg') }}" alt="">--}}
                         {{--<h4>最新热点</h4>--}}
 
                         {{--<div id="post-list-footer">--}}
@@ -134,14 +135,14 @@
                 {{--</div>--}}
 
                 <div class="widget subscribe-widget clearfix">
-                    <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+                    <h5><strong>订阅</strong>最新的移民资讯、动态及移民政策</h5>
                     <div class="widget-subscribe-form-result"></div>
                     <form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
                         <div class="input-group divcenter">
                             <span class="input-group-addon"><i class="icon-email2"></i></span>
-                            <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+                            <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="输入电子邮箱">
                             <span class="input-group-btn">
-										<button class="btn btn-success" type="submit">Subscribe</button>
+										<button class="btn btn-success" type="submit">提交订阅</button>
 									</span>
                         </div>
                     </form>
@@ -163,7 +164,7 @@
                                 <i class="icon-rss"></i>
                                 <i class="icon-rss"></i>
                             </a>
-                            <a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+                            <a href="#"><small style="display: block; margin-top: 3px;"><strong>订阅</strong><br>RSS Feeds</small></a>
                         </div>
 
                     </div>
@@ -232,7 +233,7 @@
 
                 <div class="clear"></div>
 
-                <i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+                <i class="icon-envelope2"></i> visa@yijuzhe.com
             </div>
 
         </div>
