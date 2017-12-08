@@ -3,9 +3,9 @@
 @section('slider-css')
 
     <!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="{{Storage::disk('qiniu')->url('include/rs-plugin/css/settings.css')}}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{Storage::disk('qiniu')->url('include/rs-plugin/css/layers.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{Storage::disk('qiniu')->url('include/rs-plugin/css/navigation.css')}}">
 @endsection
 
 @section('style-css')

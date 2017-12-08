@@ -205,7 +205,7 @@
                         <!-- Entry Image
                         ============================================= -->
                         <div class="entry-image bottommargin">
-                            <a href="#"><img src="{{ url('storage/' . $post->image) }}" alt="Blog Single"></a>
+                            <a href="#"><img src="{{ Storage::disk('qiniu')->url('storage/' . $post->image) }}" alt="Blog Single"></a>
                         </div><!-- .entry-image end -->
                         @endif
 

@@ -16,6 +16,7 @@
         "laravel/tinker": "~1.0",
         "mews/purifier": "^2.0",
         "nesbot/carbon": "^1.22",
+        "overtrue/laravel-filesystem-qiniu": "^1.0",
         "tamayo/laravel-scout-elastic": "^3.0",
         "tcg/voyager": "^1.0"
     },

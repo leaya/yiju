@@ -17,7 +17,7 @@
     {{--<link rel="stylesheet" href="{{ asset('css/calendar.css') }}" type="text/css" />--}}
 
     {{--<link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" />--}}
-    <link rel="stylesheet" href="{{ asset('css/all.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ Storage::disk('qiniu')->url('css/all.css') }}" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 @yield('slider-css')
@@ -61,8 +61,8 @@
 <!-- Footer Scripts
 ============================================= -->
 {{--<script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>--}}
-<script type="text/javascript" src="{{ asset('js/all.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+<script type="text/javascript" src="{{ Storage::disk('qiniu')->url('js/all.js') }}"></script>
+<script type="text/javascript" src="{{ Storage::disk('qiniu')->url('js/app.js') }}"></script>
 
 @yield('slider-js')
 

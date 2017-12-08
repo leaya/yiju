@@ -54,7 +54,6 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
-
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
@@ -62,7 +61,13 @@ return [
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET'),
         ],
-
+        'qiniu' => [
+            'driver'     => 'qiniu',
+            'access_key' => env('QINIU_ACCESS_KEY', 'xxxxxxxxxxxxxxxx'),
+            'secret_key' => env('QINIU_SECRET_KEY', 'xxxxxxxxxxxxxxxx'),
+            'bucket'     => env('QINIU_BUCKET', 'yijuzhe'),
+            'domain'     => env('QINIU_DOMAIN', 'oqieynghh.bkt.clouddn.com'), // or host: https://xxxx.clouddn.com
+        ],
     ],
 
 ];

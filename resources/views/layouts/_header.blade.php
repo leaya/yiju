@@ -11,8 +11,8 @@
             <!-- Logo
             ============================================= -->
             <div id="logo">
-                <a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="{{ asset('images/logo.png') }}" alt="Canvas Logo"></a>
-                <a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="{{ asset('images/logo@2x.png') }}" alt="Canvas Logo"></a>
+                <a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="{{ Storage::disk('qiniu')->url('images/logo.png') }}" alt="Canvas Logo"></a>
+                <a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="{{ Storage::disk('qiniu')->url('images/logo@2x.png') }}" alt="Canvas Logo"></a>
             </div><!-- #logo end -->
 
             <!-- Primary Navigation
