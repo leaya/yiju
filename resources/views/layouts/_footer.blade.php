@@ -14,7 +14,7 @@
 
                     <div class="widget clearfix">
 
-                        <img src="{{ asset('images/footer-widget-logo.png') }}" alt="" class="footer-logo">
+                        <img src="{{Storage::disk('qiniu')->url('images/footer-widget-logo.png') }}" alt="" class="footer-logo">
 
                         {{--<p> 关注技术移民 <strong>政策动向</strong>, 探讨华裔移民 <strong>热点问题</strong>. </p>--}}
 
@@ -50,7 +50,7 @@
                         {{--</ul>--}}
                         <p> 关注技术移民 <strong>政策动向</strong>, 探讨华裔移民 <strong>热点问题</strong>. </p>
 
-                        <div style="background: url('{{ asset('images/world-map.png') }}') no-repeat center center; background-size: 100%;">
+                        <div style="background: url('{{ Storage::disk('qiniu')->url('images/world-map.png') }}') no-repeat center center; background-size: 100%;">
                             <address>
                                 <strong>建议反馈？请私信:</strong><br>
                                 <br>

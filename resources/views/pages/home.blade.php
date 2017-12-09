@@ -75,9 +75,9 @@
             <!-- START REVOLUTION SLIDER 5.3.1.6 fullscreen mode -->
             <div id="rev_slider_15_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.3.1.6">
                 <ul>	<!-- SLIDE  -->
-                    <li class="dark" data-index="rs-35" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="include/rs-plugin/demos/assets/images/100x50_blur1.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="One" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li class="dark" data-index="rs-35" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="{{Storage::disk('qiniu')->url('include/rs-plugin/demos/assets/images/100x50_blur1.jpg')}}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="One" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="include/rs-plugin/demos/assets/images/snowscene1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+                        <img src="{{Storage::disk('qiniu')->url('include/rs-plugin/demos/assets/images/snowscene1.jpg')}}"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="6" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div id="rrzm_35" class="rev_row_zone rev_row_zone_middle" style="z-index: 6;">
 
@@ -214,9 +214,9 @@
                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);"> </div>
                     </li>
                     <!-- SLIDE  -->
-                    <li class="dark" data-index="rs-36" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="include/rs-plugin/demos/assets/images/100x50_blur1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Two" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li class="dark" data-index="rs-36" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="{{Storage::disk('qiniu')->url('include/rs-plugin/demos/assets/images/100x50_blur1.jpg')}}"  data-rotate="0"  data-saveperformance="off"  data-title="Two" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="include/rs-plugin/demos/assets/images/snowscene2.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+                        <img src="{{Storage::disk('qiniu')->url('include/rs-plugin/demos/assets/images/snowscene2.jpg')}}"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="6" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div id="rrzm_36" class="rev_row_zone rev_row_zone_middle" style="z-index: 6;">
 
@@ -353,9 +353,9 @@
                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);"> </div>
                     </li>
                     <!-- SLIDE  -->
-                    <li class="dark" data-index="rs-37" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="include/rs-plugin/demos/assets/images/100x50_blur1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Three" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li class="dark" data-index="rs-37" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="{{Storage::disk('qiniu')->url('include/rs-plugin/demos/assets/images/100x50_blur1.jpg')}}"  data-rotate="0"  data-saveperformance="off"  data-title="Three" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="include/rs-plugin/demos/assets/images/snowscene4.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+                        <img src="{{Storage::disk('qiniu')->url('include/rs-plugin/demos/assets/images/snowscene4.jpg')}}"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="6" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div id="rrzm_37" class="rev_row_zone rev_row_zone_middle" style="z-index: 6;">
 
@@ -530,19 +530,19 @@
 
 @section('slider-js')
 <!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/addons/revolution.addon.snow.min.js"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/addons/revolution.addon.snow.min.js')}}"></script>
 
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.actions.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.migration.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+<script type="text/javascript" src="{{Storage::disk('qiniu')->url('include/rs-plugin/js/extensions/revolution.extension.video.min.js')}}"></script>
 
 <!-- ADD-ONS JS FILES -->
 
