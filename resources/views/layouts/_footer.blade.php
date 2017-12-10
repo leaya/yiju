@@ -57,8 +57,8 @@
                                 {{--移民投资，相伴一路<br>--}}
                             </address>
 
-                            <abbr title="Phone Number"><strong>电话:</strong></abbr> (91) 8547 632521<br>
-                            <abbr title="Fax"><strong>传真:</strong></abbr> (91) 11 4752 1433<br>
+                            <abbr title="Phone Number"><strong>电话:</strong></abbr> (91) 999 999999<br>
+                            <abbr title="Fax"><strong>传真:</strong></abbr> (91) 11 9999 9999<br>
                             <abbr title="Email Address"><strong>邮箱:</strong></abbr> visa@yijuzhe.com
                         </div>
 

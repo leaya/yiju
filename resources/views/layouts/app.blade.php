@@ -19,6 +19,11 @@
     {{--<link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" />--}}
     <link rel="stylesheet" href="{{ Storage::disk('qiniu')->url('css/all.css') }}" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        .content blockquote {
+            border-left: 4px solid #8cc34a;
+        }
+    </style>
 
 @yield('slider-css')
     <!-- Document Title
@@ -42,9 +47,9 @@
 @yield('vertical-nav')
 
 @yield('page-title')
-
+<div id="app">
 @yield('content')
-
+</div>
 @include('layouts._footer')
 
 </div><!-- #wrapper end -->
@@ -62,7 +67,7 @@
 ============================================= -->
 {{--<script type="text/javascript" src="{{ asset('js/functions.js') }}"></script>--}}
 <script type="text/javascript" src="{{ Storage::disk('qiniu')->url('js/all.js') }}"></script>
-<script type="text/javascript" src="{{ Storage::disk('qiniu')->url('js/app.js') }}"></script>
+<script type="text/javascript" src="{{ Storage::disk('qiniu')->url(mix('js/app.js')) }}"></script>
 
 @yield('slider-js')
 

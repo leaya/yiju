@@ -160,7 +160,7 @@
 
         <div class="container clearfix">
             <h1>{{ $currentCat->name }}</h1>
-            <span>目录描述</span>
+            {{--<span>目录描述</span>--}}
             <ol class="breadcrumb">
                 <li><a href="/">首页</a></li>
                 <li class="active">{{ $currentCat->name }}</li>
@@ -197,7 +197,7 @@
                                 <li><a href="#"><i class="icon-user"></i> {{ $post->authorId->name }}</a></li>
                                 <li><i class="icon-folder-open"></i> <a href="{{ route('categories.index', [$currentCat->id, $currentCat->slug]) }}">{{ $currentCat->name }}</a></li>
                                 {{--<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13 Comments</a></li>--}}
-                                <li><a href="#"><i class="icon-camera-retro"></i></a></li>
+                                <li><a href="#"><i class="icon-thumbs-up"></i></a></li>
                             </ul>
                             <div class="entry-content">
                                 <p>{!! $post->excerpt !!}</p>

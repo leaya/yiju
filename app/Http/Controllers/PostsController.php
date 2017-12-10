@@ -10,13 +10,12 @@ class PostsController extends Controller
 {
     public function show(Post $post)
     {
-        $categories = Category::where('parent_id', null)->with('subCat')->get();
-//        dd($categories);
-//        $categories = Category::with('posts')->get();
+        $categories = Category::where('parent_id', null)->with('subCat')->orderBy('order')->get();
+
         $post = Post::with(['category.parentCat', 'authorId'])->where('id', $post->id)->first();
         $nextPostId = Post::find($post->getNextPostId($post->id));
         $prevPostId = Post::find($post->getPrevPostId($post->id));
-//        dd($post);
+
         return view('posts.show', compact('post', 'categories', 'nextPostId', 'prevPostId'));
     }
 
@@ -27,7 +26,7 @@ class PostsController extends Controller
         if ($q) {
             $paginator = Post::search($q)->paginate();
         }
-//        dd($paginator);
+
         return view('posts.search', compact('paginator', 'q'));
     }
 }

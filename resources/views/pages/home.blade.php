@@ -297,7 +297,7 @@
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,40,40]"
 
-                                         style="z-index: 8; white-space: nowrap; font-size: 110px; line-height: 100px; font-weight: 600; color: rgba(255, 255, 255, 1.00); display: inline-block;font-family:Poppins;letter-spacing:-5px;">Let it Snow </div>
+                                         style="z-index: 8; white-space: nowrap; font-size: 110px; line-height: 100px; font-weight: 600; color: rgba(255, 255, 255, 1.00); display: inline-block;font-family:Poppins;letter-spacing:-5px;">移民留学热点资讯 </div>
 
                                     <!-- LAYER NR. 9 -->
                                     <div class="tp-caption   tp-resizeme"
@@ -325,7 +325,7 @@
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
 
-                                         style="z-index: 9; white-space: normal; font-size: 30px; line-height: 40px; font-weight: 300; color: rgba(255, 255, 255, 1.00); display: block;font-family:Poppins;">An Effect Add-On for Slider Revolution </div>
+                                         style="z-index: 9; white-space: normal; font-size: 30px; line-height: 40px; font-weight: 300; color: rgba(255, 255, 255, 1.00); display: block;font-family:Poppins;">在移民留学的道路上指明正确的方向 </div>
                                 </div>
                             </div>
                         </div>
@@ -496,7 +496,7 @@
 
                     <!-- LAYER NR. 16 -->
                     <a class="tp-caption rev-btn  tp-static-layer"
-                       href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123?ref=SemiColonWeb&license=regular&open_purchase_for_item_id=9228123&purchasable=source" target="_blank"			 id="slider-15-layer-18"
+                       href="{{ url('/docs') }}" target=""			 id="slider-15-layer-18"
                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['30','30','30','30']"
                        data-width="none"

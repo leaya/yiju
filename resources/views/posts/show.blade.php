@@ -198,7 +198,7 @@
                             <li><a href="#"><i class="icon-user"></i> {{ $post->authorId->name }}</a></li>
                             <li><i class="icon-folder-open"></i> <a href="{{ route('categories.index', [$post->category->id, $post->category->slug]) }}">{{ $post->category->name }}</a></li>
                             {{--<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13 Comments</a></li>--}}
-                            <li><a href="#"><i class="icon-camera-retro"></i></a></li>
+                            <li><a href="#"><i class="icon-thumbs-up"></i></a></li>
                         </ul><!-- .entry-meta end -->
 
                         @if (isset($post->image))
@@ -218,14 +218,14 @@
 
                             <!-- Tag Cloud
                             ============================================= -->
-                            <div class="tagcloud clearfix bottommargin">
-                                <a href="#">general</a>
-                                <a href="#">information</a>
-                                <a href="#">media</a>
-                                <a href="#">press</a>
-                                <a href="#">gallery</a>
-                                <a href="#">illustration</a>
-                            </div><!-- .tagcloud end -->
+                            {{--<div class="tagcloud clearfix bottommargin">--}}
+                                {{--<a href="#">general</a>--}}
+                                {{--<a href="#">information</a>--}}
+                                {{--<a href="#">media</a>--}}
+                                {{--<a href="#">press</a>--}}
+                                {{--<a href="#">gallery</a>--}}
+                                {{--<a href="#">illustration</a>--}}
+                            {{--</div><!-- .tagcloud end -->--}}
 
                             <div class="clear"></div>
 
@@ -288,13 +288,13 @@
                     ============================================= -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Posted by <span><a href="#">{{ $post->authorId->name }}</a></span></h3>
+                            <h3 class="panel-title">作者： <span><a href="#">{{ $post->authorId->name }}</a></span></h3>
                         </div>
                         <div class="panel-body">
                             <div class="author-image">
                                 <img src="{{ $post->authorId->avatar }}" alt="" class="img-circle">
                             </div>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eveniet, eligendi et nobis neque minus mollitia sit repudiandae ad repellendus recusandae blanditiis praesentium vitae ab sint earum voluptate velit beatae alias fugit accusantium laboriosam nisi reiciendis deleniti tenetur molestiae maxime id quaerat consequatur fugiat aliquam laborum nam aliquid. Consectetur, perferendis?
+                            移居者 网站站长
                         </div>
                     </div><!-- Post Single - Author End -->
 

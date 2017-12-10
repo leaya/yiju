@@ -159,11 +159,10 @@
     <section id="page-title">
 
         <div class="container clearfix">
-            <h1>Navigation Tree</h1>
+            <h1>加拿大、澳大利亚、新西兰、美国移民指南</h1>
             <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Functionality</a></li>
-                <li class="active">Navigation Tree</li>
+                <li><a href="/">首页</a></li>
+                <li><a href="{{ route('pages.docs') }}">移民指南</a></li>
             </ol>
         </div>
 

@@ -10,7 +10,7 @@ class CategoriesController extends Controller
 {
     public function index(Category $category)
     {
-        $categories = Category::where('parent_id', null)->with('subCat')->Orderby('Order')->get();
+        $categories = Category::where('parent_id', null)->with('subCat')->Orderby('order')->get();
         $posts = Post::with('authorId')->where('category_id', $category->id)->paginate(5);
         return view('categories.index', compact('categories', 'posts'))->with('currentCat', $category);
     }

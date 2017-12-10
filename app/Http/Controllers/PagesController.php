@@ -9,7 +9,7 @@ class PagesController extends Controller
 {
     public function docs()
     {
-        $categories = Category::where('parent_id', null)->with('subCat')->get();
+        $categories = Category::where('parent_id', null)->with('subCat')->Orderby('order')->get();
         return view('pages.docs', compact('categories'));
     }
 
