@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', "关于'" . $q . "的搜索结果")
+@section('title', "关于'" . $query . "的搜索结果")
 @section('style-css')
     <style>
         .h50 {
@@ -117,13 +117,13 @@
 
 @section('content')
     @include('common.error')
-    @if($q)
+    @if($query)
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-default list-panel search-results">
                     <div class="panel-heading">
                         <h3 class="panel-title ">
-                            <i class="fa fa-search"></i> 关于 “<span class="highlight">{{ $q }}</span>” 的搜索结果, 共 {{ $paginator->total() }} 条
+                            <i class="fa fa-search"></i> 关于 “<span class="highlight">{{ $query }}</span>” 的搜索结果, 共 {{ $paginator->total() }} 条
                         </h3>
                     </div>
 
@@ -146,10 +146,10 @@
                                 <div class="desc">
                                     @if (isset($post->highlight['body']))
                                         @foreach ($post->highlight['body'] as $item)
-                                            ......{!! $item !!}......
+                                            ......{!! strip_tags($item, '<em>') !!}......
                                         @endforeach
                                     @else
-                                        {{ mb_substr($post->body, 0, 150) }}......
+                                        {{ mb_substr(strip_tags($post->body), 0, 150) }}......
                                     @endif
                                 </div>
                                 <hr>

@@ -28,11 +28,11 @@ class PostsController extends Controller
         ]);
 
         $paginator = [];
-        $q = $request->get('q');
-        if (isset($q)) {
-            $paginator = Post::search($q)->paginate(5);
+        $query = $request->get('query');
+        if (isset($query)) {
+            $paginator = Post::search($query)->paginate(1);
         }
 
-        return view('posts.search', compact('paginator', 'q'));
+        return view('posts.search', compact('paginator', 'query'));
     }
 }
