@@ -24,9 +24,9 @@
                     </li>
                     <li @if (Route::is('categories.index') || Route::is('posts.show') || Route::is('pages.docs')) class="current" @endif><a href="{{ url('docs') }}"><div>移民指南</div></a>
                     </li>
-                    <li class="mega-menu"><a href="#"><div>头条</div></a>
-                    </li>
                     <li class="mega-menu"><a href="#"><div>热门话题</div></a>
+                    </li>
+                    <li class="mega-menu"><a href="{{ route('contact.show') }}"><div>免费咨询</div></a>
                     </li>
                 </ul>
 
