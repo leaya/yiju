@@ -8,8 +8,11 @@ use App\Models\Post;
 
 class PostsController extends Controller
 {
-    public function show(Post $post)
+    public function show(Post $post, Request $request)
     {
+        if ( !empty($post->slug) && $post->slug != $request->slug) {
+            return redirect(route('posts.show', array_merge([$post->id, $post->slug])), 301);
+        }
         $categories = Category::where('parent_id', null)->with('subCat')->orderBy('order')->get();
 
         $post = Post::with(['category.parentCat', 'authorId'])->where('id', $post->id)->first();
