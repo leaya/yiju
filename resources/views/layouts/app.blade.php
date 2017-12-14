@@ -16,8 +16,8 @@
     {{--<link rel="stylesheet" href="{{ asset('css/calendar.css') }}" type="text/css" />--}}
 
     {{--<link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" />--}}
-    <link rel="stylesheet" href="{{ url('style.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ url('css/all.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ Storage::disk('qiniu')->url('style.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ Storage::disk('qiniu')->url('css/all.css') }}" type="text/css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>

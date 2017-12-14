@@ -23,9 +23,6 @@ Route::get('pages/score', 'PagesController@score')->name('pages.score');
 Route::post('contact', 'ContactController@send')->name('contact.send');
 Route::get('contact', 'ContactController@show')->name('contact.show');
 
-Route::get('email', 'PagesController@email');
-Route::post('email', 'ContactController@send');
-
 Route::group(['prefix' => 'adminLHX'], function () {
     Voyager::routes();
 });

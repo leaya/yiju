@@ -23,13 +23,4 @@ class PagesController extends Controller
         return view('pages.score');
     }
 
-    public function email()
-    {
-        return view('emails.test');
-    }
-
-    public function send(Request $request)
-    {
-        dd($request->all());
-    }
 }
