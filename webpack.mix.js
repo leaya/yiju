@@ -23,7 +23,6 @@ mix.scripts([
 
 mix.styles([
     'public/css/bootstrap.css',
-    'public/style.css',
     'public/css/dark.css',
     'public/css/font-icons.css',
     'public/css/animate.css',

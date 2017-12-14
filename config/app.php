@@ -165,6 +165,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         ScoutEngines\Elasticsearch\ElasticsearchProvider::class,
         Overtrue\LaravelFilesystem\Qiniu\QiniuStorageServiceProvider::class,
+        Naux\Mail\SendCloudServiceProvider::class,
 
         /*
          * Package Service Providers...
