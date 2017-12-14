@@ -35,7 +35,7 @@
                 <div id="top-search">
                     <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
                     <form action="/posts/search" method="get">
-                        <input type="text" name="q" class="form-control" value="" placeholder="输入搜索词..">
+                        <input type="text" name="q" class="form-control required" value="" placeholder="输入搜索词..">
                     </form>
                 </div><!-- #top-search end -->
 

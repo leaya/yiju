@@ -116,6 +116,7 @@
 @endsection
 
 @section('content')
+    @include('common.error')
     @if($q)
         <div class="row">
             <div class="col-md-12">
