@@ -22,19 +22,16 @@ class PostsController extends Controller
     public function search(Request $request)
     {
         $this->validate($request, [
-            'q' => 'required|max:30',
+            'q' => 'max:30',
         ], [
-            'q.required' => '输入的搜索内容不能为空',
             'q.max' => '输入的搜索内容过长'
         ]);
 
+        $paginator = [];
         $q = $request->get('q');
-        if (empty($q)) {
-            return '';
-//            return redirect(route('posts.search'))->withMessage('输入的搜索内容不能为空');
+        if (isset($q)) {
+            $paginator = Post::search($q)->paginate(5);
         }
-//        $paginator = [];
-        $paginator = Post::search($q)->paginate(5);
 
         return view('posts.search', compact('paginator', 'q'));
     }
