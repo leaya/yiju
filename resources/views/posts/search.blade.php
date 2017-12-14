@@ -130,7 +130,7 @@
                         @foreach($paginator as $post)
                             <div class="result">
                                 <h2 class="title">
-                                    <a href="{{ $post->url }}" target="_blank">
+                                    <a href="{{ route('posts.show', $post->id) }}" target="_blank">
                                         @if (isset($post->highlight['title']))
                                             @foreach ($post->highlight['title'] as $item)
                                                 {!! $item !!}

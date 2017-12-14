@@ -22,10 +22,11 @@ class PostsController extends Controller
     public function search(Request $request)
     {
         $q = $request->get('q');
-        $paginator = [];
-        if ($q) {
-            $paginator = Post::search($q)->paginate();
+        if (empty($q)) {
+            return '';
         }
+//        $paginator = [];
+        $paginator = Post::search($q)->paginate(5);
 
         return view('posts.search', compact('paginator', 'q'));
     }
