@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="{{ Storage::disk('qiniu')->url('css/all.css') }}" type="text/css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="baidu-site-verification" content="a9x8PIbw5o" />
     <style>
         .content blockquote {
             border-left: 4px solid #8cc34a;

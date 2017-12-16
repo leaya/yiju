@@ -33,7 +33,7 @@ class PostsController extends Controller
         $paginator = [];
         $query = $request->get('query');
         if (isset($query)) {
-            $paginator = Post::search($query)->paginate(1);
+            $paginator = Post::search($query)->paginate(5);
         }
 
         return view('posts.search', compact('paginator', 'query'));

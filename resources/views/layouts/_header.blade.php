@@ -44,5 +44,13 @@
         </div>
 
     </div>
-
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?d5b7f0415de8932b338a0ff9bb11d52c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </header><!-- #header end -->
