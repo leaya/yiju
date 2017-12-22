@@ -52,13 +52,12 @@
 
                         <div style="background: url('{{ Storage::disk('qiniu')->url('images/world-map.png') }}') no-repeat center center; background-size: 100%;">
                             <address>
-                                <strong>建议反馈？请私信:</strong><br>
+                                <strong>移民投资，相伴一路</strong><br>
                                 <br>
-                                {{--移民投资，相伴一路<br>--}}
+                                建议反馈？请私信:<br>
                             </address>
-
-                            <abbr title="Phone Number"><strong>电话:</strong></abbr> (91) 999 999999<br>
-                            <abbr title="Fax"><strong>传真:</strong></abbr> (91) 11 9999 9999<br>
+                            {{--<abbr title="Phone Number"><strong>电话:</strong></abbr> (91) 999 999999<br>--}}
+                            {{--<abbr title="Fax"><strong>传真:</strong></abbr> (91) 11 9999 9999<br>--}}
                             <abbr title="Email Address"><strong>邮箱:</strong></abbr> visa@yijuzhe.com
                         </div>
 
@@ -69,45 +68,17 @@
                 <div class="col_one_third col_last">
 
                     <div class="widget clearfix">
-                        <p>扫二维码关注最新移民资讯：</p>
-                        <p>为 移民 而生,移居者 的愿景是做最好的 移民平台 , 有任何跟移民相关的问题，都可以在这里得到解决。Enjoy Life !</p>
-                        {{--<img style="text-align: center" width="50%" src="{{ url('images/test.jpg') }}" alt="">--}}
-                        {{--<h4>最新热点</h4>--}}
+                        <p><strong>办公地址：</strong>温哥华，欢迎预约访问</p>
+                        <div id="post-list-footer">
+                            <div class="spost clearfix">
+                                <div class="entry-c">
+                                    <div class="entry-title">
+                                        <p>为 移民 而生,移居者 的愿景是做最好的 移民平台 , 有任何跟移民相关的问题，都可以在这里得到解决。</p>
+                                    </div>
+                                </div>
+                            </div>
 
-                        {{--<div id="post-list-footer">--}}
-                            {{--<div class="spost clearfix">--}}
-                                {{--<div class="entry-c">--}}
-                                    {{--<div class="entry-title">--}}
-                                        {{--<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>--}}
-                                    {{--</div>--}}
-                                    {{--<ul class="entry-meta">--}}
-                                        {{--<li>10th July 2014</li>--}}
-                                    {{--</ul>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-
-                            {{--<div class="spost clearfix">--}}
-                                {{--<div class="entry-c">--}}
-                                    {{--<div class="entry-title">--}}
-                                        {{--<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>--}}
-                                    {{--</div>--}}
-                                    {{--<ul class="entry-meta">--}}
-                                        {{--<li>10th July 2014</li>--}}
-                                    {{--</ul>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-
-                            {{--<div class="spost clearfix">--}}
-                                {{--<div class="entry-c">--}}
-                                    {{--<div class="entry-title">--}}
-                                        {{--<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>--}}
-                                    {{--</div>--}}
-                                    {{--<ul class="entry-meta">--}}
-                                        {{--<li>10th July 2014</li>--}}
-                                    {{--</ul>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+                        </div>
                     </div>
 
                 </div>
@@ -203,31 +174,6 @@
                     <a href="#" class="social-icon si-small si-borderless si-gplus">
                         <i class="icon-gplus"></i>
                         <i class="icon-gplus"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless si-pinterest">
-                        <i class="icon-pinterest"></i>
-                        <i class="icon-pinterest"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless si-vimeo">
-                        <i class="icon-vimeo"></i>
-                        <i class="icon-vimeo"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless si-github">
-                        <i class="icon-github"></i>
-                        <i class="icon-github"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless si-yahoo">
-                        <i class="icon-yahoo"></i>
-                        <i class="icon-yahoo"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless si-linkedin">
-                        <i class="icon-linkedin"></i>
-                        <i class="icon-linkedin"></i>
                     </a>
                 </div>
 

@@ -294,7 +294,9 @@
                             <div class="author-image">
                                 <img src="{{ $post->authorId->avatar }}" alt="" class="img-circle">
                             </div>
-                            移居者 网站站长
+                            <p class="nobottommargin">转载请尊重版权保留来源"移民者yijuzhe.com"</p>
+                            <p>移居者团队</p>
+                            <p><a href="{{ route('contact.show') }}" class="btn btn-success btn-sm">获得一个免费评估</a></p>
                         </div>
                     </div><!-- Post Single - Author End -->
 
