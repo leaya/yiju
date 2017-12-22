@@ -159,7 +159,7 @@
     <section id="page-title">
 
         <div class="container clearfix">
-            <h1>加拿大、澳大利亚、新西兰、美国移民指南</h1>
+            <h1>各国移民指南、百科大全</h1>
             <ol class="breadcrumb">
                 <li><a href="/">首页</a></li>
                 <li><a href="{{ route('pages.docs') }}">移民指南</a></li>
@@ -172,15 +172,74 @@
 @section('content')
     <!-- Content
     ============================================= -->
-    <section id="content">
+    <section id="content" style="margin-bottom: 0px;">
 
         <div class="content-wrap">
 
-            <div class="container clearfix">
+                    <div class="container clearfix">
 
-@yield('post-content')
+                        <div class="heading-block center">
+                            <h2>加拿大移民计划</h2>
+                            <span>加拿大移民计划，取决于你的自身条件、目标和你个人的具体情况。</span>
+                        </div>
 
-            </div>
+                        <div class="clear bottommargin-sm"></div>
+
+                        <div class="col_one_third">
+                            <div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn">
+                                <div class="fbox-icon">
+                                    <a href="#"><i class="icon-fire"></i></a>
+                                </div>
+                                <h3>家庭团聚移民</h3>
+                                <p>这个方案允许在加拿大有直系亲属的个人申请</p>
+                            </div>
+                        </div>
+
+                        <div class="col_one_third">
+                            <div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn" data-delay="200">
+                                <div class="fbox-icon">
+                                    <a href="#"><i class="icon-eye"></i></a>
+                                </div>
+                                <h3>加拿大经验类移民</h3>
+                                <p>此计划适合在加拿大有技术工作经验的人申请</p>
+                            </div>
+                        </div>
+
+                        <div class="col_one_third col_last">
+                            <div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn" data-delay="400">
+                                <div class="fbox-icon">
+                                    <a href="#"><i class="icon-star2"></i></a>
+                                </div>
+                                <h3>省提名移民计划</h3>
+                                <p>加拿大联邦允许各省有自己的移民评估标准和配额</p>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_half">
+                            <div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn" data-delay="600">
+                                <div class="fbox-icon">
+                                    <a href="#"><i class="icon-heart2"></i></a>
+                                </div>
+                                <h3>魁北克经验类移民</h3>
+                                <p>适合在魁北克学习或工作的国际留学生和外籍工作者申请</p>
+                            </div>
+                        </div>
+
+                        <div class="col_half col_last">
+                            <div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn" data-delay="800">
+                                <div class="fbox-icon">
+                                    <a href="#"><i class="icon-note"></i></a>
+                                </div>
+                                <h3>企业家移民</h3>
+                                <p>此计划适合于有能力到加拿大创办或购买企业的人申请</p>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+
+                    </div>
 
         </div>
 
