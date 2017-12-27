@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', '首页')
+@section('title', '加拿大移民攻略')
 @section('slider-css')
 
     <!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->

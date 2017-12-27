@@ -162,7 +162,8 @@
             <h1>{!! $post->category->name !!}</h1>
             <ol class="breadcrumb">
                 <li><a href="/">首页</a></li>
-                <li><a href="{{ route('categories.index', [$post->category->parentCat->id, $post->category->parentCat->slug]) }}">{{ $post->category->parentCat->name }}</a></li>
+                {{--<li><a href="{{ route('categories.index', [$post->category->parentCat->id, $post->category->parentCat->slug]) }}">{{ $post->category->parentCat->name }}</a></li>--}}
+                <li>{{ $post->category->parentCat->name }}</li>
                 <li class="active">{{ $post->category->name }}</li>
             </ol>
         </div>
